@@ -36,7 +36,7 @@ const Header = () => {
           <Link
             className={twMerge(
               "text-gray-500 hover:text-gray-900 font-[500] transition-colors duration-200",
-              pathname === href ? "text-primary" : ""
+              pathname === href ? "text-primary font-[600]" : ""
             )}
             key={`${href}${label}`}
             href={href}
