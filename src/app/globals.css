@@ -21,6 +21,11 @@ body {
   background: rgb(var(--background-end-rgb));
 }
 
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -1,17 +1,11 @@
-import Image from "next/image";
+import Intro from "@/sections/Home/Intro";
+import TopCategories from "@/sections/Home/TopCategories";
 
 export default function Home() {
   return (
     <main>
-      <div className="flex justify-center gap-16">
-        <div>hello</div>
-        <Image
-          src={"/images/home-header-dotted.png"}
-          alt="home header"
-          width={400}
-          height={400}
-        />
-      </div>
+      <Intro />
+      <TopCategories />
     </main>
   );
 }
