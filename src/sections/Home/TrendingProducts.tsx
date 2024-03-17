@@ -1,3 +1,4 @@
+import ProductCard from "@/components/cards/ProductCard";
 import React from "react";
 import { twMerge } from "tailwind-merge";
 interface Props {
@@ -13,6 +14,15 @@ const TrendingProducts = ({ className }: Props) => {
         Simple, transparent pricing that grows with you. Try any plan free for
         30 days.
       </p>
+      <div className="flex flex-wrap justify-center gap-4">
+        <ProductCard className="max-w-[242px]" />
+        <ProductCard className="max-w-[242px]" />
+        <ProductCard className="max-w-[242px]" />
+        <ProductCard className="max-w-[242px]" />
+        <ProductCard className="max-w-[242px]" />
+        <ProductCard className="max-w-[242px]" />
+        <ProductCard className="max-w-[242px]" />
+      </div>
     </section>
   );
 };
