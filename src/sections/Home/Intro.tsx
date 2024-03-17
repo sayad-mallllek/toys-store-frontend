@@ -3,7 +3,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="flex justify-center items-center gap-0 p-4">
+    <section className="flex justify-center items-center gap-0 p-4">
       <div className="flex flex-col gap-8">
         <p className="text-5xl lg:text-6xl font-bold font-nunito -rotate-[8.72deg] text-primary">
           Fun to care,
@@ -26,7 +26,7 @@ const Intro = () => {
         width={500}
         height={400}
       />
-    </div>
+    </section>
   );
 };
 
